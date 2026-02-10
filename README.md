@@ -19,8 +19,8 @@ Payload:
 Login:
 -----
 {
-	"userId": 342,
-	"password": "pizon12345"
+	"userId": 346,
+	"password": "abdur12345"
 }
 
 
@@ -28,13 +28,13 @@ User:
 -----
 {
 	"userId": 346,
-	"firstName": "Habibur",
+	"firstName": "Abdur",
 	"lastName": "Rahman",
-	"email": "habib@enosisbd.com",
+	"email": "abdur.not.real.email@enosisbd.com",
 	"designation": "Software Engineer",
 	"dateOfBirth": "1996-11-15",
-	"supervisor": "Shadatul Hakim",
-	"password": "habib1234"
+	"supervisor": "Linus Torvalds",
+	"password": "abdur12345"
 }
 
 Leave:
@@ -45,7 +45,7 @@ Leave:
 	"to": "2018-09-20",
 	"type": "sick",
 	"reason": "personal",
-	"emergencyContact": "+8801625077945",
+	"emergencyContact": "+8801625012345",
 	"userId": 347
 }
 ```
