@@ -1,8 +1,20 @@
-from django.shortcuts import render
-from rest_framework import viewsets, status, permissions
+from rest_framework import (
+    permissions,
+    status,
+    viewsets,
+)
 from rest_framework.response import Response
-from .models import User, Leave
-from .serializers import UserSerializer, LeaveSerializer
+
+from .models import (
+    Leave,
+    User, 
+)
+from .serializers import (
+    LeaveSerializer,
+    UserSerializer, 
+)
+
+
 # Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):

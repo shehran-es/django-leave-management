@@ -1,5 +1,9 @@
 from rest_framework import serializers
-from .models import User, Leave
+
+from .models import (
+    User,
+    Leave,
+)
 
 
 class UserSerializer(serializers.ModelSerializer):
